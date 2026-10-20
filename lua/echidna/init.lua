@@ -134,7 +134,7 @@ local function set_groups(colorscheme)
 		},
 
 		String = {
-			fg = colorscheme.lime,
+			fg = colorscheme.green,
 			italic = config.italics.strings or false,
 		},
 		Character = { fg = colorscheme.lime },
