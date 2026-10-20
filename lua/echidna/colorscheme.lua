@@ -2,7 +2,7 @@ local p = {
 	background_low = "#212020",
 	background = "#213030",
 	background_high = "#333131",
-	background_higher = "#400000",
+	background_higher = "#404040",
 	foreground = "#f2f2f2",
 
 	grey = "#7c7c70",

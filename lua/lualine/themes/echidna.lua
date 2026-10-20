@@ -15,21 +15,21 @@ M.normal = {
 }
 
 M.insert = {
-	a = { bg = colorscheme.heather, fg = colorscheme.background },
-	b = { bg = colorscheme.background_high, fg = colorscheme.heather },
-	c = { bg = bg, fg = colorscheme.heather },
-	x = { bg = bg, fg = colorscheme.heather },
-	y = { bg = colorscheme.background_high, fg = colorscheme.heather },
-	z = { bg = colorscheme.background_higher, fg = colorscheme.heather },
+	a = { bg = colorscheme.green, fg = colorscheme.background },
+	b = { bg = colorscheme.background_high, fg = colorscheme.green },
+	c = { bg = bg, fg = colorscheme.green },
+	x = { bg = bg, fg = colorscheme.green },
+	y = { bg = colorscheme.background_high, fg = colorscheme.green },
+	z = { bg = colorscheme.background_higher, fg = colorscheme.green },
 }
 
 M.terminal = {
-	a = { bg = colorscheme.ice_dark, fg = colorscheme.background },
-	b = { bg = colorscheme.background_high, fg = colorscheme.ice_dark },
-	c = { bg = bg, fg = colorscheme.ice_dark },
-	x = { bg = bg, fg = colorscheme.ice_dark },
-	y = { bg = colorscheme.background_high, fg = colorscheme.ice_dark },
-	z = { bg = colorscheme.background_higher, fg = colorscheme.ice_dark },
+	a = { bg = colorscheme.lime_dark, fg = colorscheme.background },
+	b = { bg = colorscheme.background_high, fg = colorscheme.lime_dark },
+	c = { bg = bg, fg = colorscheme.lime_dark },
+	x = { bg = bg, fg = colorscheme.lime_dark },
+	y = { bg = colorscheme.background_high, fg = colorscheme.lime_dark },
+	z = { bg = colorscheme.background_higher, fg = colorscheme.lime_dark },
 }
 
 M.command = {
