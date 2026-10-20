@@ -225,8 +225,8 @@ local function set_groups(colorscheme)
 		["@constant"] = { link = "Constant" },
 		["@constant.builtin"] = { fg = colorscheme.magenta_dark },
 		["@string"] = { link = "String" },
-		["@string.escape"] = { fg = utils.shade(colorscheme.lime, 0.45) },
-		["@string.special"] = { fg = utils.shade(colorscheme.magenta_dark, 0.45) },
+		["@string.escape"] = { fg = colorscheme.lime },
+		["@string.special"] = { fg = colorscheme.magenta_dark },
 		["@number"] = { link = "Number" },
 		["@boolean"] = { link = "Boolean" },
 		["@function"] = {
