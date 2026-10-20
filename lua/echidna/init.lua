@@ -264,7 +264,7 @@ local function set_groups(colorscheme)
 		["@tag"] = { link = "Tag" },
 		["@tag.builtin"] = { link = "Tag" },
 		["@tag.delimiter"] = { fg = colorscheme.yellow_dark },
-		["@tag.attribute"] = { fg = colorscheme.lime_dark },
+		["@tag.attribute"] = { fg = colorscheme.heather },
 		["@tag.jsx.element"] = { fg = colorscheme.heather_dark },
 		["@attribute"] = { fg = colorscheme.lime_dark },
 		["@error"] = { link = "Error" },
