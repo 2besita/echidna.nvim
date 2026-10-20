@@ -1,6 +1,6 @@
 local p = {
 	background_low = "#212020",
-	background = "#213030",
+	background = "#252525",
 	background_high = "#333131",
 	background_higher = "#404040",
 	foreground = "#f2f2f2",
@@ -12,7 +12,7 @@ local p = {
 	green = "#c3d9ac",
 	green_dark = "#9ba683",
 	lime = "#a6c587",
-	lime_dark = "#81775b",
+	lime_dark = "#758a60",
 	heather = "#a796b3",
 	heather_dark = "#766482",
     magenta = "#e6daf2",
