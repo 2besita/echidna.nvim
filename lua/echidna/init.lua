@@ -159,7 +159,7 @@ local function set_groups(colorscheme)
 		Macro = { link = "Define" },
 		PreCondit = { fg = colorscheme.gray3_dark },
 
-		Type = { fg = colorscheme.gray2 },
+		Type = { fg = colorscheme.lime_dark },
 		Struct = { link = "Type" },
 		Class = { link = "Type" },
 
@@ -242,11 +242,11 @@ local function set_groups(colorscheme)
 		["@operator"] = { link = "Operator" },
 		["@exception"] = { link = "Exception" },
 		["@variable"] = {
-			fg = colorscheme.foreground,
+			fg = colorscheme.gray2,
 			italic = config.italics.variables or false,
 		},
-		["@variable.builtin"] = { fg = colorscheme.foreground },
-		["@variable.member"] = { fg = colorscheme.foreground },
+		["@variable.builtin"] = { fg = colorscheme.gray3 },
+		["@variable.member"] = { fg = colorscheme.gray4 },
 		["@variable.parameter"] = {
 			fg = colorscheme.foreground,
 			italic = config.italics.variables or false,
