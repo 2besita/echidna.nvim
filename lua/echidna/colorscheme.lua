@@ -7,18 +7,18 @@ local p = {
 
 	grey = "#7c7c70",
 	dark_grey = "#636366",
-    red = "#d4d4d4",
-	red_dark = "#646464",
-	lime = "#9999a3",
-	lime_dark = "#838385",
-	heather = "#b9b9b9",
-	heather_dark = "#a5a5a5",
+    gray2 = "#d4d4d4",
+	gray2_dark = "#646464",
+	gray3 = "#9999a3",
+	gray3_dark = "#838385",
+	gray4 = "#b9b9b9",
+	gray4_dark = "#a5a5a5",
 	green = "#c3d9ac",
 	green_dark = "#95a683",
 	yellow = "#e8f2c4",
 	yellow_dark = "#c1d184",
-    magenta = "#96ab97",
-    magenta_dark = "#7e8f7e",
+    lime = "#96ab97",
+    lime_dark = "#7e8f7e",
 }
 
 local M = {}
@@ -34,36 +34,36 @@ function M.pick()
 
 	colorscheme.grey = p.grey
 	colorscheme.dark_grey = p.dark_grey
-	colorscheme.red = p.red
-	colorscheme.red_dark = p.red_dark
+	colorscheme.gray2 = p.gray2d
+	colorscheme.gray2_dark = p.gray2_dark
 	colorscheme.green = p.green
 	colorscheme.green_dark = p.green_dark
 	colorscheme.yellow = p.yellow
 	colorscheme.yellow_dark = p.yellow_dark
-	colorscheme.heather = p.heather
-	colorscheme.heather_dark = p.heather_dark
-	colorscheme.magenta = p.magenta
-	colorscheme.magenta_dark = p.magenta_dark
-	colorscheme.lime = p.lime
+	colorscheme.gray4 = p.gray4r
+	colorscheme.gray4_dark = p.gray4_dark
+	colorscheme.lime = p.limea
 	colorscheme.lime_dark = p.lime_dark
+	colorscheme.gray3 = p.gray3e
+	colorscheme.gray3_dark = p.gray3_dark
 
 	colorscheme.terminal = {
 		black = p.grey,
-		red = p.red,
-		green = p.lime,
+		gray2 = p.gray2,
+		green = p.gray3,
 		green = p.yellow,
-		heather = p.heather,
-		magenta = p.magenta,
-		cyan = p.lime,
+		gray4 = p.gray4,
+		lime = p.lime,
+		cyan = p.gray3,
 		white = p.foreground,
 
 		bright_black = p.grey,
-		bright_red = p.red_dark,
+		gray2 = p.gray2_dark,
 		bright_green = p.green,
 		green = p.yellow_dark,
-		bright_heather = p.heather_dark,
-		bright_magenta = p.green_dark,
-		bright_cyan = p.lime_dark,
+		gray4 = p.gray4_dark,
+		lime = p.green_dark,
+		bright_cyan = p.gray3_dark,
 		bright_white = p.foreground,
 
 		background = p.background_low,
