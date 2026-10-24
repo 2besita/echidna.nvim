@@ -34,35 +34,35 @@ function M.pick()
 
 	colorscheme.grey = p.grey
 	colorscheme.dark_grey = p.dark_grey
-	colorscheme.gray2 = p.gray2d
+	colorscheme.gray2 = p.gray2
 	colorscheme.gray2_dark = p.gray2_dark
 	colorscheme.green = p.green
 	colorscheme.green_dark = p.green_dark
 	colorscheme.yellow = p.yellow
 	colorscheme.yellow_dark = p.yellow_dark
-	colorscheme.gray4 = p.gray4r
+	colorscheme.gray4 = p.gray4
 	colorscheme.gray4_dark = p.gray4_dark
-	colorscheme.lime = p.limea
+	colorscheme.lime = p.lime
 	colorscheme.lime_dark = p.lime_dark
-	colorscheme.gray3 = p.gray3e
+	colorscheme.gray3 = p.gray3
 	colorscheme.gray3_dark = p.gray3_dark
 
 	colorscheme.terminal = {
 		black = p.grey,
 		gray2 = p.gray2,
 		green = p.gray3,
-		green = p.yellow,
+		yellow = p.yellow,
 		gray4 = p.gray4,
 		lime = p.lime,
 		cyan = p.gray3,
 		white = p.foreground,
 
 		bright_black = p.grey,
-		gray2 = p.gray2_dark,
+		bright_gray2 = p.gray2_dark,
 		bright_green = p.green,
-		green = p.yellow_dark,
-		gray4 = p.gray4_dark,
-		lime = p.green_dark,
+		bright_yellow = p.yellow_dark,
+		bright_gray4 = p.gray4_dark,
+		bright_lime = p.green_dark,
 		bright_cyan = p.gray3_dark,
 		bright_white = p.foreground,
 
