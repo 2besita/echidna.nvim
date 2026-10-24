@@ -132,7 +132,7 @@ local function set_groups(colorscheme)
 		},
 
 		String = {
-			fg = colorscheme.green,
+			fg = colorscheme.gray3,
 			italic = config.italics.strings or false,
 		},
 		Character = { fg = colorscheme.gray3 },
@@ -146,7 +146,7 @@ local function set_groups(colorscheme)
 		Property = { fg = colorscheme.gray3_dark },
 		Field = { link = "Property" },
 		Parameter = { fg = colorscheme.foreground },
-		Statement = { fg = colorscheme.green_dark },
+		Statement = { fg = colorscheme.gray4 },
 		Conditional = { fg = colorscheme.lime_dark },
 		Label = { fg = colorscheme.gray3_dark },
 		Operator = { fg = colorscheme.gray4 },
@@ -159,7 +159,7 @@ local function set_groups(colorscheme)
 		Macro = { link = "Define" },
 		PreCondit = { fg = colorscheme.gray3_dark },
 
-		Type = { fg = colorscheme.lime },
+		Type = { fg = colorscheme.gray2 },
 		Struct = { link = "Type" },
 		Class = { link = "Type" },
 
