@@ -24,7 +24,7 @@ M.insert = {
 }
 
 M.terminal = {
-	a = { bg = colorscheme.lime_dark, fg = colorscheme.background },
+	a = { bg = colorscheme.green, fg = colorscheme.background },
 	b = { bg = colorscheme.background_high, fg = colorscheme.lime_dark },
 	c = { bg = bg, fg = colorscheme.lime_dark },
 	x = { bg = bg, fg = colorscheme.lime_dark },
@@ -33,7 +33,7 @@ M.terminal = {
 }
 
 M.command = {
-	a = { bg = colorscheme.yellow, fg = colorscheme.background },
+	a = { bg = colorscheme.lime_dark, fg = colorscheme.background },
 	b = { bg = colorscheme.background_high, fg = colorscheme.yellow },
 	c = { bg = bg, fg = colorscheme.yellow },
 	x = { bg = bg, fg = colorscheme.yellow },
@@ -42,7 +42,7 @@ M.command = {
 }
 
 M.visual = {
-	a = { bg = colorscheme.magenta, fg = colorscheme.background },
+	a = { bg = colorscheme.yellow_dark, fg = colorscheme.background },
 	b = { bg = colorscheme.background_high, fg = colorscheme.magenta },
 	c = { bg = bg, fg = colorscheme.magenta },
 	x = { bg = bg, fg = colorscheme.magenta },
@@ -51,7 +51,7 @@ M.visual = {
 }
 
 M.replace = {
-	a = { bg = colorscheme.red, fg = colorscheme.background },
+	a = { bg = colorscheme.green_dark, fg = colorscheme.background },
 	b = { bg = colorscheme.background_high, fg = colorscheme.red },
 	c = { bg = bg, fg = colorscheme.red },
 	x = { bg = bg, fg = colorscheme.red },
