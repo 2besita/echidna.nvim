@@ -10,18 +10,18 @@ local function set_terminal_colors(colorscheme)
 	local t = colorscheme.terminal
 
 	vim.g.terminal_color_0 = t.black
-	vim.g.terminal_color_1 = t.gray2
+	vim.g.terminal_color_1 = t.red
 	vim.g.terminal_color_2 = t.green
 	vim.g.terminal_color_3 = t.green
-	vim.g.terminal_color_4 = t.gray3
+	vim.g.terminal_color_4 = t.lavender
 	vim.g.terminal_color_5 = t.moss
 	vim.g.terminal_color_6 = t.cyan
 	vim.g.terminal_color_7 = t.white
 	vim.g.terminal_color_8 = t.bright_black
-	vim.g.terminal_color_9 = t.gray2
+	vim.g.terminal_color_9 = t.red
 	vim.g.terminal_color_10 = t.bright_green
 	vim.g.terminal_color_11 = t.bright_green
-	vim.g.terminal_color_12 = t.gray3
+	vim.g.terminal_color_12 = t.lavender
 	vim.g.terminal_color_13 = t.moss
 	vim.g.terminal_color_14 = t.bright_cyan
 	vim.g.terminal_color_15 = t.bright_white
@@ -38,7 +38,7 @@ local function set_groups(colorscheme)
 		SnacksNormalNC = { fg = colorscheme.foreground, bg = colorscheme.background },
 		SnacksPicker = { fg = colorscheme.foreground, bg = colorscheme.background },
 		SnacksPickerDir = { fg = colorscheme.moss },
-		gray2 = { fg = colorscheme.moss },
+		red = { fg = colorscheme.moss },
 		SnacksPickerGitStatusUntracked = { fg = colorscheme.moss },
 		SnacksPickerDirectory = { fg = colorscheme.lime },
 		SnacksPickerBox = { fg = colorscheme.foreground, bg = colorscheme.background },
@@ -55,9 +55,9 @@ local function set_groups(colorscheme)
 		CursorLine = { bg = colorscheme.background },
 		CursorColumn = { link = "CursorLine" },
 		Directory = { fg = colorscheme.lime_dark },
-		DiffAdd = { bg = bg, fg = colorscheme.gray3 },
+		DiffAdd = { bg = bg, fg = colorscheme.lavender },
 		DiffChange = { bg = bg, fg = colorscheme.moss },
-		DiffDelete = { bg = bg, fg = colorscheme.gray2 },
+		DiffDelete = { bg = bg, fg = colorscheme.red },
 		DiffText = { bg = bg, fg = colorscheme.lime },
 		EndOfBuffer = { fg = colorscheme.background_high },
 		TermCursor = { link = "Cursor" },
@@ -65,7 +65,7 @@ local function set_groups(colorscheme)
 		OkMsg = { fg = colorscheme.lime_dark },
 		PreInsert = { fg = colorscheme.lime_dark },
 		Added = { fg = colorscheme.lime_dark },
-		ErrorMsg = { fg = colorscheme.gray2 },
+		ErrorMsg = { fg = colorscheme.red },
 		VertSplit = { fg = colorscheme.yellow, bg = "NONE" },
 		Winseparator = { fg = colorscheme.background_higher, bg = "NONE" },
 		SignColumn = { link = "Normal" },
@@ -114,7 +114,7 @@ local function set_groups(colorscheme)
 		},
 		CurSearch = { bg = utils.shade(colorscheme.lime, 0.20, colorscheme.background_low), fg = colorscheme.foreground },
 		Search = { bg = utils.shade(colorscheme.lime, 0.20, colorscheme.background_low), fg = colorscheme.foreground },
-		SpellBad = { undercurl = true, sp = colorscheme.gray2 },
+		SpellBad = { undercurl = true, sp = colorscheme.red },
 		SpellCap = { undercurl = true, sp = colorscheme.lime_dark },
 		SpellLocal = { undercurl = true, sp = colorscheme.moss },
 		SpellRare = { undercurl = true, sp = colorscheme.yellow },
@@ -141,17 +141,17 @@ local function set_groups(colorscheme)
 		Float = { link = "Number" },
 
 		Identifier = { fg = colorscheme.foreground },
-		Function = { fg = colorscheme.gray3 },
+		Function = { fg = colorscheme.lavender },
 		Method = { fg = colorscheme.green_dark },
 		Property = { fg = colorscheme.lime_dark },
 		Field = { link = "Property" },
 		Parameter = { fg = colorscheme.foreground },
-		Statement = { fg = colorscheme.gray3 },
+		Statement = { fg = colorscheme.lavender },
 		Conditional = { fg = colorscheme.moss_dark },
 		Label = { fg = colorscheme.lime_dark },
-		Operator = { fg = colorscheme.gray3 },
+		Operator = { fg = colorscheme.lavender },
 		Keyword = { link = "Statement", italic = config.italics.keywords or false },
-		Exception = { fg = colorscheme.gray2 },
+		Exception = { fg = colorscheme.red },
 		Constant = { fg = colorscheme.green },
 
 		PreProc = { link = "Keyword" },
@@ -167,7 +167,7 @@ local function set_groups(colorscheme)
 		Punctuation = { fg = colorscheme.yellow },
 		Special = { fg = colorscheme.green_dark },
 
-		SpecialChar = { fg = colorscheme.gray2 },
+		SpecialChar = { fg = colorscheme.red },
 		Tag = { fg = colorscheme.yellow },
 		Delimiter = { fg = colorscheme.yellow },
 		Debug = { fg = colorscheme.moss_dark },
@@ -180,7 +180,7 @@ local function set_groups(colorscheme)
 		Todo = { fg = colorscheme.yellow, bold = true },
 
 		Changed = { fg = colorscheme.moss_dark },
-		Removed = { fg = colorscheme.gray2 },
+		Removed = { fg = colorscheme.red },
 
 		DiagnosticOk = { fg = colorscheme.lime_dark },
 		DiagnosticError = { link = "Error" },
@@ -217,8 +217,8 @@ local function set_groups(colorscheme)
 		["@punctuation.special"] = { fg = colorscheme.lime },
 		["@punctuation.separator.keyvalue"] = { fg = colorscheme.lime },
 
-		["@text.diff.add"] = { fg = colorscheme.gray3 },
-		["@text.diff.delete"] = { fg = colorscheme.gray2 },
+		["@text.diff.add"] = { fg = colorscheme.lavender },
+		["@text.diff.delete"] = { fg = colorscheme.red },
 
 		["@constant"] = { link = "Constant" },
 		["@constant.builtin"] = { fg = colorscheme.moss_dark },
@@ -242,11 +242,11 @@ local function set_groups(colorscheme)
 		["@operator"] = { link = "Operator" },
 		["@exception"] = { link = "Exception" },
 		["@variable"] = {
-			fg = colorscheme.gray2,
+			fg = colorscheme.red,
 			italic = config.italics.variables or false,
 		},
 		["@variable.builtin"] = { fg = colorscheme.lime },
-		["@variable.member"] = { fg = colorscheme.gray3 },
+		["@variable.member"] = { fg = colorscheme.lavender },
 		["@variable.parameter"] = {
 			fg = colorscheme.foreground,
 			italic = config.italics.variables or false,
