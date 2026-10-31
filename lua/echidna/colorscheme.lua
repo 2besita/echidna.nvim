@@ -1,8 +1,8 @@
 local p = {
-	background_low = "#212020",
-	background = "#252525",
-	background_high = "#333131",
-	background_higher = "#404040",
+	background_low = "#111010",
+	background = "#212020",
+	background_high = "#252525",
+	background_higher = "#333131",
 	foreground = "#f2f2f2",
 
 	grey = "#737373",
