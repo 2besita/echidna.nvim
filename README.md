@@ -4,7 +4,7 @@ Echidna is a dark colorscheme for neovim, focused on low saturation and contrast
 eyesore while viewing and writing code (at least for me) and making the colors consistent between monitors of varied
 qualities and display technologies.
 
-#### How to install
+### How to install
 lazyvim:
 ```lua
 return {
@@ -21,7 +21,7 @@ vim.pack.add({
 })
 ```
 
-##### Usage
+#### Usage
 Add this to your configuration:
 ```lua
 vim.cmd.colorscheme("echidna")
@@ -29,7 +29,10 @@ vim.cmd.colorscheme("echidna")
 
 Or run `:colorscheme echidna`
 
-#### Preview
+### Ports
+You can find a port for `foot terminal` on the "ports" subdirectory.
+Also, there's a [port of this theme for Emacs](https://github.com/tichelmorres/echidna-emacs-theme.git) made my [tichelmorres](https://github.com/tichelmorres)
+### Preview
 ![preview 1](./assets/screenshot1.png)
 ![preview 2](./assets/screenshot2.png)
 ![preview 3](./assets/screenshot3.png)
