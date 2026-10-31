@@ -6,12 +6,12 @@ local bg = (config.transparent and colorscheme.background_high) or colorscheme.b
 local M = {}
 
 M.normal = {
-	a = { bg = colorscheme.lime, fg = colorscheme.background },
-	b = { bg = colorscheme.background_high, fg = colorscheme.lime },
-	c = { bg = bg, fg = colorscheme.lime },
-	x = { bg = bg, fg = colorscheme.lime },
-	y = { bg = colorscheme.background_high, fg = colorscheme.lime },
-	z = { bg = colorscheme.background_higher, fg = colorscheme.lime },
+	a = { bg = colorscheme.moss, fg = colorscheme.background },
+	b = { bg = colorscheme.background_high, fg = colorscheme.moss },
+	c = { bg = bg, fg = colorscheme.moss },
+	x = { bg = bg, fg = colorscheme.moss },
+	y = { bg = colorscheme.background_high, fg = colorscheme.moss },
+	z = { bg = colorscheme.background_higher, fg = colorscheme.moss },
 }
 
 M.insert = {
@@ -25,15 +25,15 @@ M.insert = {
 
 M.terminal = {
 	a = { bg = colorscheme.green, fg = colorscheme.background },
-	b = { bg = colorscheme.background_high, fg = colorscheme.lime_dark },
-	c = { bg = bg, fg = colorscheme.lime_dark },
-	x = { bg = bg, fg = colorscheme.lime_dark },
-	y = { bg = colorscheme.background_high, fg = colorscheme.lime_dark },
-	z = { bg = colorscheme.background_higher, fg = colorscheme.lime_dark },
+	b = { bg = colorscheme.background_high, fg = colorscheme.moss_dark },
+	c = { bg = bg, fg = colorscheme.moss_dark },
+	x = { bg = bg, fg = colorscheme.moss_dark },
+	y = { bg = colorscheme.background_high, fg = colorscheme.moss_dark },
+	z = { bg = colorscheme.background_higher, fg = colorscheme.moss_dark },
 }
 
 M.command = {
-	a = { bg = colorscheme.lime_dark, fg = colorscheme.background },
+	a = { bg = colorscheme.moss_dark, fg = colorscheme.background },
 	b = { bg = colorscheme.background_high, fg = colorscheme.yellow },
 	c = { bg = bg, fg = colorscheme.yellow },
 	x = { bg = bg, fg = colorscheme.yellow },
