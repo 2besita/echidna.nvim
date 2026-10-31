@@ -120,7 +120,7 @@ local function set_groups(colorscheme)
 		SpellRare = { undercurl = true, sp = colorscheme.yellow },
 		Title = { fg = colorscheme.moss, bold = true },
 		Visual = {
-			bg = utils.shade(colorscheme.moss_dark, 0.20, colorscheme.background_low),
+			bg = utils.shade(colorscheme.moss_dark, 0.20, colorscheme.background_high),
 		},
 		VisualNOS = { link = "Visual" },
 		WarningMsg = { fg = colorscheme.yellow },
