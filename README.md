@@ -31,7 +31,7 @@ Or run `:colorscheme echidna`
 
 ### Ports
 You can find a port for `foot terminal` on the "ports" subdirectory.
-Also, there's a [port of this theme for Emacs](https://github.com/tichelmorres/echidna-emacs-theme.git) made my [tichelmorres](https://github.com/tichelmorres)
+Also, there's a [port of this theme for Emacs](https://github.com/tichelmorres/echidna-emacs-theme.git) made by [tichelmorres](https://github.com/tichelmorres)
 ### Preview
 ![preview 1](./assets/screenshot1.png)
 ![preview 2](./assets/screenshot2.png)
