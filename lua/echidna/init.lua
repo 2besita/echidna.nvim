@@ -38,7 +38,7 @@ local function set_groups(colorscheme)
 		SnacksNormalNC = { fg = colorscheme.foreground, bg = colorscheme.background },
 		SnacksPicker = { fg = colorscheme.foreground, bg = colorscheme.background },
 		SnacksPickerDir = { fg = colorscheme.moss },
-		red = { fg = colorscheme.moss },
+		red = { fg = colorscheme.red },
 		SnacksPickerGitStatusUntracked = { fg = colorscheme.moss },
 		SnacksPickerDirectory = { fg = colorscheme.lime },
 		SnacksPickerBox = { fg = colorscheme.foreground, bg = colorscheme.background },
@@ -167,7 +167,7 @@ local function set_groups(colorscheme)
 		Punctuation = { fg = colorscheme.yellow },
 		Special = { fg = colorscheme.green_dark },
 
-		SpecialChar = { fg = colorscheme.red },
+		SpecialChar = { fg = colorscheme.lime },
 		Tag = { fg = colorscheme.yellow },
 		Delimiter = { fg = colorscheme.yellow },
 		Debug = { fg = colorscheme.moss_dark },
@@ -242,7 +242,7 @@ local function set_groups(colorscheme)
 		["@operator"] = { link = "Operator" },
 		["@exception"] = { link = "Exception" },
 		["@variable"] = {
-			fg = colorscheme.red,
+			fg = colorscheme.lavender_dark,
 			italic = config.italics.variables or false,
 		},
 		["@variable.builtin"] = { fg = colorscheme.lime },
