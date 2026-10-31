@@ -17,7 +17,7 @@ local p = {
 	green_dark = "#95a683",
 	yellow = "#e8f2c4",
 	yellow_dark = "#c1d184",
-	lime = "##a4d726",
+	lime = "#a4d726",
     lime_dark = "#8da73f",
 }
 
