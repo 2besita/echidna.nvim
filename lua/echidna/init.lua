@@ -159,7 +159,7 @@ local function set_groups(colorscheme)
 		Macro = { link = "Define" },
 		PreCondit = { fg = colorscheme.lime_dark },
 
-		Type = { fg = colorscheme.moss_dark },
+		Type = { fg = colorscheme.yellow },
 		Struct = { link = "Type" },
 		Class = { link = "Type" },
 
