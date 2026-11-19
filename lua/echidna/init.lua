@@ -196,6 +196,10 @@ local function set_groups(colorscheme)
 		DiagnosticUnderlineInfo = { undercurl = true, link = "DiagnosticInfo" },
 		DiagnosticUnderlineHint = { undercurl = true, link = "DiagnosticHint" },
 
+        cssDefinition = { fg = colorscheme.lime },
+        cssTagName = { fg = colorscheme.foreground_accent },
+        cssClassName = { fg = colorscheme.yellow },
+
 		["@text"] = { fg = colorscheme.foreground },
 		["@text.literal"] = { link = "Property" },
 		["@text.strong"] = { link = "Bold" },
