@@ -242,7 +242,7 @@ local function set_groups(colorscheme)
 		["@operator"] = { link = "Operator" },
 		["@exception"] = { link = "Exception" },
 		["@variable"] = {
-			fg = colorscheme.lavender_dark,
+			fg = colorscheme.foreground_accent,
 			italic = config.italics.variables or false,
 		},
 		["@variable.builtin"] = { fg = colorscheme.lime },

@@ -4,6 +4,8 @@ local p = {
 	background_high = "#252525",
 	background_higher = "#333131",
 	foreground = "#f2f2f2",
+	foreground_accent = "#ebffec",
+",
 
 	grey = "#737373",
 	dark_grey = "#636366",
@@ -31,6 +33,7 @@ function M.pick()
 	colorscheme.background_high = p.background_high
 	colorscheme.background_higher = p.background_higher
 	colorscheme.foreground = p.foreground
+	colorscheme.foreground_accent = p.foreground_accent
 
 	colorscheme.grey = p.grey
 	colorscheme.dark_grey = p.dark_grey
