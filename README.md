@@ -1,10 +1,38 @@
 ## Echidna.nvim
 
 <p align="center">
-Echidna is a theme collection for neovim focused on low saturation and contrast, aiming to an almost monochromatic vibe, each theme featuring only a main color with its variations, one secondary color and a rarely seen color for errors (so you don't think errors are part of the code :D).
+Echidna is a theme collection for neovim focused on low saturation and
+contrast, aiming to an almost monochromatic vibe, each theme featuring only a
+main color with its variations, one secondary color and a rarely seen color for
+errors (so you don't think errors are part of the code :D).<br/>
+
+*I don't use plugins, so there's still no plugin implementation and I don't plan
+on doing it. Feel free to make a pr*<br/>
+*I also don't use treesitter, so the themes may look different than on preview*</br>
 </p>
 
-### How to install
+## Previews
+<details> 
+<sumary> amni </sumary>
+![amni preview on a rust file](./assets/amni.png)
+</details>
+
+<details> 
+<sumary> cocoa </sumary>
+![cocoa preview on a rust file](./assets/cocoa.png)
+</details>
+
+<details> 
+<sumary> lycoris </sumary>
+![lycoris preview on a typescript file](./assets/lycoris.png)
+</details>
+
+<details> 
+<sumary> wisteria </sumary>
+![wisteria preview on a rust file](./assets/wisteria.png)
+</details>
+
+### Installation
 lazyvim:
 ```lua
 return {
@@ -27,12 +55,27 @@ Add this to your configuration:
 vim.cmd.colorscheme("echidna")
 ```
 
+or `echidna-cocoa`, `echidna-lycoris`, etc.<br/>
+
+You also have a set of configurations you can apply:
+```lua
+require("echidna").setup({
+    variant = "echidna-amni",
+    transparent = false,
+    italics = {
+        comments = false,
+        keywords = false,
+        functions = false,
+        strings = false,
+        variables = false,
+        bufferline = false,
+    },
+    overrides = {},
+})
+```
+
 Or run `:colorscheme echidna`
 
 ### Ports
 You can find a port for `foot terminal` on the "ports" subdirectory.
 Also, there's a [port of this theme for Emacs](https://github.com/tichelmorres/echidna-emacs-theme.git) made by [tichelmorres](https://github.com/tichelmorres)
-### Preview
-![preview 1](./assets/screenshot1.png)
-![preview 2](./assets/screenshot2.png)
-![preview 3](./assets/screenshot3.png)

@@ -23,7 +23,7 @@ palettes['echidna-amni'] = {
     color12             = "#89ab67",
 }
 
-palettes['echidna-cinnamomum'] = {
+palettes['echidna-cocoa'] = {
 	background_low      = "#0D0B0A",
 	background          = "#141110",
 	background_high     = "#1A1514",
@@ -39,7 +39,7 @@ palettes['echidna-cinnamomum'] = {
     color5              = "#A6948D",
     color6              = "#917A71",
 	color7              = "#52423E",
-	color8              = "#57423D",
+	color8              = "#78635D",
 	color9              = "#756257",
 	color10             = "#4D2F29",
 	color11             = "#BF9B7A",

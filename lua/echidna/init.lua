@@ -278,7 +278,7 @@ function theme.colorscheme(name)
 		return
 	end
 
-	name = name or vim.g.colors_name
+	name = name or config.variant or vim.g.colors_name or "echidna-amni"
 	local p = palettes[name]
 
 	if not p then
