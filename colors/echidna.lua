@@ -1,1 +1,1 @@
-require("echidna").colorscheme()
+require("echidna").colorscheme("echidna-amni")
