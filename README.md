@@ -14,22 +14,22 @@ on doing it. Feel free to make a pr*<br/>
 ## Previews
 <details> 
 <sumary> amni </sumary>
-<img src="./assets/amni.png">
+<img src="./assets/amni.png"/>
 </details>
 
 <details> 
 <sumary> cocoa </sumary>
-<img src="./assets/cocoa.png">
+<img src="./assets/cocoa.png"/>
 </details>
 
 <details> 
 <sumary> lycoris </sumary>
-<img src="./assets/lycoris.png">
+<img src="./assets/lycoris.png"/>
 </details>
 
 <details> 
 <sumary> wisteria </sumary>
-<img src="./assets/wisteria.png">
+<img src="./assets/wisteria.png"/>
 </details>
 
 ### Installation
