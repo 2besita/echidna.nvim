@@ -327,4 +327,4 @@ theme.setup({
 	},
 })
 
-theme.colorscheme()
+theme.colorscheme("echidna-amni")

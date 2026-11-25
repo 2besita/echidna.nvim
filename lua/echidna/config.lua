@@ -1,8 +1,9 @@
 local config = {
 	defaults = {
+		variant = "echidna-amni",
 		transparent = false,
 		italics = {
-			comments = true,
+			comments = false,
 			keywords = false,
 			functions = false,
 			strings = false,
