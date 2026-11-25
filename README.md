@@ -1,8 +1,8 @@
 ## Echidna.nvim
 
-Echidna is a dark colorscheme for neovim, focused on low saturation and contrast between colors, aiming to cause less
-eyesore while viewing and writing code (at least for me) and making the colors consistent between monitors of varied
-qualities and display technologies.
+<p align="center">
+Echidna is a theme collection for neovim focused on low saturation and contrast, aiming to an almost monochromatic vibe, each theme featuring only a main color with its variations, one secondary color and a rarely seen color for errors (so you don't think errors are part of the code :D).
+</p>
 
 ### How to install
 lazyvim:
