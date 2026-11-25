@@ -8,7 +8,7 @@ errors (so you don't think errors are part of the code :D).<br/>
 </p>
 
 ###### *I don't use plugins, so there's still no plugin implementation and I don't plan
-on doing it. Feel free to make a pr*<br/>
+###### *on doing it. Feel free to make a pr**<br/>
 ###### *I also don't use treesitter, so the themes may look different than on preview*</br>
 
 ## Previews
