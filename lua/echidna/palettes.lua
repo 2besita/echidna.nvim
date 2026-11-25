@@ -41,7 +41,7 @@ palettes['echidna-cocoa'] = {
 	color7              = "#52423E",
 	color8              = "#967F78",
 	color9              = "#756257",
-	color10             = "#4D2F29",
+	color10             = "#69534E",
 	color11             = "#BF9B7A",
     color12             = "#8C5B3E",
 }

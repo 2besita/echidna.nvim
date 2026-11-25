@@ -74,5 +74,8 @@ require("echidna").setup({
 Or run `:colorscheme echidna`
 
 ### Ports
-You can find a port for `foot terminal` on the "ports" subdirectory.
-Also, there's a [port of this theme for Emacs](https://github.com/tichelmorres/echidna-emacs-theme.git) made by [tichelmorres](https://github.com/tichelmorres)
+You can find ports for `foot terminal` on the "ports" subdirectory.<br/>
+Also, there's a [port of this theme for
+Emacs](https://github.com/tichelmorres/echidna-emacs-theme.git) and
+[echidna-mono](https://github.com/tichelmorres/echidna-mono.nvim.git) made by
+[tichelmorres](https://github.com/tichelmorres)
