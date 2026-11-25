@@ -2,10 +2,6 @@ local palettes      = require('echidna.palettes')
 local config        = require("echidna.config")
 local utils         = require("echidna.utils")
 
-local bufferline    = require("echidna.integrations.bufferline")
-local cmp           = require("echidna.integrations.cmp")
-local ibl           = require("echidna.integrations.ibl")
-
 local theme = {}
 
 local function set_terminal_colors(p)
@@ -256,10 +252,6 @@ local function set_groups(p)
 		["@lsp.typemod.function.declaration"]   = { link = "@function" },
 		["@lsp.typemod.function.readonly"]      = { link = "@function" },
 	}
-
-	groups = vim.tbl_extend("force", groups, cmp.highlights(p) or {})
-	groups = vim.tbl_extend("force", groups, ibl.highlights(p) or {})
-	groups = vim.tbl_extend("force", groups, bufferline.highlights(p, config) or {})
 
 	groups = vim.tbl_extend(
 		"force",
