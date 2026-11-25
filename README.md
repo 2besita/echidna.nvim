@@ -14,22 +14,22 @@ on doing it. Feel free to make a pr*<br/>
 ## Previews
 <details> 
 <sumary> amni </sumary>
-![amni preview on a rust file](./assets/amni.png)
+<img src="./assets/amni.png">
 </details>
 
 <details> 
 <sumary> cocoa </sumary>
-![cocoa preview on a rust file](./assets/cocoa.png)
+<img src="./assets/cocoa.png">
 </details>
 
 <details> 
 <sumary> lycoris </sumary>
-![lycoris preview on a typescript file](./assets/lycoris.png)
+<img src="./assets/lycoris.png">
 </details>
 
 <details> 
 <sumary> wisteria </sumary>
-![wisteria preview on a rust file](./assets/wisteria.png)
+<img src="./assets/wisteria.png">
 </details>
 
 ### Installation
@@ -73,6 +73,7 @@ require("echidna").setup({
     overrides = {},
 })
 ```
+*These are the default values*
 
 Or run `:colorscheme echidna`
 
