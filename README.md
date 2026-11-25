@@ -25,7 +25,7 @@ on doing it. Feel free to make a pr*<br/>
 <img src="./assets/lycoris.png"/>
 </details>
 <details> 
-<sumamry> wisteria </summary>
+<summary> wisteria </summary>
 <img src="./assets/wisteria.png"/>
 </details>
 
