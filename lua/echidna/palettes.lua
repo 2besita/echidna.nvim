@@ -23,6 +23,29 @@ palettes['echidna-amni'] = {
     color12             = "#89ab67",
 }
 
+palettes['echidna-cinnamomum'] = {
+	background_low      = "#0D0B0A",
+	background          = "#141110",
+	background_high     = "#1A1514",
+	background_higher   = "#1F1A18",
+	grey                = "#4F4A47",
+	dark_grey           = "#4F4A47",
+	foreground          = "#f2f2f2",
+	foreground_accent   = "#F2E6D8",
+    color1              = "#f2cbbd",
+	color2              = "#f2a5b5",
+	color3              = "#778C8C",
+	color4              = "#5B706F",
+    color5              = "#A6948D",
+    color6              = "#917A71",
+	color7              = "#52423E",
+	color8              = "#57423D",
+	color9              = "#453330",
+	color10             = "#4D2F29",
+	color11             = "#BF9B7A",
+    color12             = "#8C5B3E",
+}
+
 palettes['echidna-lycoris'] = {
 	background_low      = "#050001",
 	background          = "#080101",
