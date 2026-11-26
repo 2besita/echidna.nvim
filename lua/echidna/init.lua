@@ -116,7 +116,7 @@ local function set_groups(p)
 		Function                                = { fg = p.color3 },
 		Method                                  = { fg = p.color8 },
 		Property                                = { fg = p.color12 },
-		Field                                   = { link = "Property" },
+		Field                                   = { fg = p.color7 },
 		Parameter                               = { fg = p.foreground },
 		Statement                               = { fg = p.color3 },
 		Conditional                             = { fg = p.color6 },
