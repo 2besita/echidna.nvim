@@ -4,11 +4,14 @@
 Echidna is a theme collection for neovim focused on low saturation and
 contrast, aiming to an almost monochromatic vibe, each theme featuring only a
 main color with its variations, one secondary color and a rarely seen color for
-errors (so you don't think errors are part of the code :D).<br/>
+errors (so you don't think errors are part of the code).<br/>
+
+The themes are inspired by plants (Amni Majus, Theobroma Cocoa, Lycoris Radiata
+and Wisteria Sinensis, respectively) and there's a high chance more will be added.<br/>
 </p>
 
-###### *I don't use plugins, so there's still no plugin implementation and I don't plan on doing it. Feel free to make a pr*
-###### *I also don't use treesitter, so the themes may look different than on preview*</br>
+###### *I don't use plugins, so there's no direct plugin support and I don't plan on doing it, feel free to make a pr*
+
 
 ## Previews
 <details> 
